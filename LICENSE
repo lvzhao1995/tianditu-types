@@ -19,3 +19,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Some of the code for this project comes from the following third-party code
+bases, all under the MIT license:
+
+#### SoulLyoko/vue-tianditu
+- Copyright (c) 2021 SoulLyoko
+- Source: https://github.com/SoulLyoko/vue-tianditu
+
+The full MIT license text of the above third-party codebase is exactly the same
+as the license terms you are currently reading. The copyright notice for each
+component must remain in all copies or substantial portions.

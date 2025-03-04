@@ -1,0 +1,18 @@
+{
+  "name": "tianditu-types",
+  "version": "0.0.1",
+  "description": "",
+  "types": "src/index.d.ts",
+  "scripts": {
+  },
+  "keywords": [
+    "tianditu",
+    "天地图"
+  ],
+  "repository": "https://github.com/lvzhao1995/tianditu-types.git",
+  "author": "LvZhao <abc-1.2@qq.com>",
+  "license": "MIT",
+  "files": [
+    "src"
+  ]
+}
