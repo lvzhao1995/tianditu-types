@@ -5,7 +5,7 @@ declare namespace T {
   class ControlMapType extends T.Control {
     /**
      * 创建地图类型控件，opts为可选参数。
-     * @param mapTypes 控件展示的地图类型，默认为普通图、卫星图、卫星加路网混合图。通过此属性可配置控件展示的地图类型。
+     * @param opts 控件展示的地图类型，默认为普通图、卫星图、卫星加路网混合图。通过此属性可配置控件展示的地图类型。
      */
     constructor(opts?: ControlMapTypeOptions);
   }

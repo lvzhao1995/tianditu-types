@@ -4,6 +4,7 @@ declare namespace T {
      * 创建圆覆盖物
      * @param center 圆心经纬度坐标
      * @param radius 圆的半径，以米点单位
+     * @param opts 圆覆盖物参数
      */
     constructor(center: LngLat, radius: number, opts?: CircleOptions);
     /** 设置圆的中心点。 */
