@@ -1,15 +1,23 @@
 declare namespace T {
+
+  namespace Control {
+    class Zoom extends ControlZoom {}
+    class Scale extends ControlScale {}
+    class Copyright extends ControlCopyright {}
+    class OverviewMap extends ControlOverviewMap {}
+    class MapType extends ControlMapType {}
+  }
   /**
    * 自定义控件基类
    */
   class Control {
-    static Zoom: typeof ControlZoom;
-    static Scale: typeof ControlScale;
-    static Copyright: typeof ControlCopyright;
-    static OverviewMap: typeof ControlOverviewMap;
-    static MapType: typeof ControlMapType;
+    // static Zoom: typeof ControlZoom;
+    // static Scale: typeof ControlScale;
+    // static Copyright: typeof ControlCopyright;
+    // static OverviewMap: typeof ControlOverviewMap;
+    // static MapType: typeof ControlMapType;
 
-    constructor(opts?: ControlOptions);
+    // constructor(opts?: ControlOptions);
     /**
      * 设置控件的位置。参数请参见ControlPosition常量。
      * @param position "topleft" | "topright" | "bottomleft" | "bottomright"

@@ -7,7 +7,7 @@ declare namespace T {
     constructor(opts?: ControlZoomOptions);
   }
 
-  interface ControlZoomOptions extends T.ControlOptions {
+  interface ControlZoomOptions extends ControlOptions {
     /** 放大层级按钮的文字显示。default:"+" */
     zoomInText?: string;
     /** 缩小层级按钮的文字显示。default:"-" */

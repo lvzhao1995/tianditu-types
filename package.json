@@ -13,5 +13,8 @@
   "license": "MIT",
   "files": [
     "src"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }

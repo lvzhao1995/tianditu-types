@@ -15,6 +15,6 @@ declare namespace T {
     /** 请求服务的版本。default:"1.1.1" */
     version?: string;
     /** 地图投影类型。default:"EPSG:900913" */
-    srs?: string;
+    srs?: MapCode;
   }
 }

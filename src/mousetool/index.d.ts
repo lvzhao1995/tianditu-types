@@ -5,3 +5,4 @@ import "./paintBrushTool";
 import "./polygonTool";
 import "./polylineTool";
 import "./rectangleTool";
+import "./contextMenu"
