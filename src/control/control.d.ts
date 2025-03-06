@@ -17,7 +17,7 @@ declare namespace T {
     // static OverviewMap: typeof ControlOverviewMap;
     // static MapType: typeof ControlMapType;
 
-    // constructor(opts?: ControlOptions);
+    constructor(opts?: ControlOptions);
     /**
      * 设置控件的位置。参数请参见ControlPosition常量。
      * @param position "topleft" | "topright" | "bottomleft" | "bottomright"
